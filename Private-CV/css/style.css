@@ -1,0 +1,60 @@
+body {
+		background-color: #ffffff;
+}
+
+#content h1 {
+		font-size: 4em;
+}
+
+#content h3 {
+		font-size: 1.5em;
+}
+
+#content .a_name {
+		font-size: 1.5em;
+		color: #000000;
+}
+
+#content {
+		margin: 10px 20px;
+		font-size: 1em;
+		font-family: "Times New Roman", Times, serif;
+}
+
+.profilePic {
+		float: right;
+		background-image: url("../gfx/profile_pic.jpg");
+
+		height: 335px;
+		width: 205px;
+
+		border: 2px solid #c0c0c0;
+	
+		margin: 0px 0px 30px 30px;
+}
+
+#content a:link, #content a:visited {
+		text-decoration: underline;
+		color: #4479ba;
+}
+
+#content a:hover {
+		text-decoration: none;
+}
+
+#content a:active {
+		color: #ffffff;
+}
+
+#content p {
+		text-indent: 0px;
+}
+
+#content .quickLinks {
+		font-size: 0.8em;
+}
+
+#content .refLinks {
+		font-size: 0.7em;
+		vertical-align: super;
+}
