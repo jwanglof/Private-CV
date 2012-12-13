@@ -1,9 +1,3 @@
-function hideEverything() {
-	$("#divHome").hide();
-	$("#divWhoami").hide();
-	$("#divWhathaveideveloped").hide();
-}
-
 $(document).ready(function() {
 //	$('.dropdown-toggle').dropdown();
 
@@ -22,7 +16,6 @@ $(document).ready(function() {
 		return false;
 	});
 
-
 	$("#linkWhathaveideveloped").click(function() {
 		hideEverything();
 		$("#divWhathaveideveloped").show("fast");
@@ -31,7 +24,14 @@ $(document).ready(function() {
 
 	$("#linkWorkexperience").click(function() {
 		hideEverything();
-		$("#divWorkeperience").show("fast");
+		$("#divWorkexperience").show("fast");
 		return false;
 	});
 });
+
+function hideEverything() {
+	$("#divHome").hide();
+	$("#divWhoami").hide();
+	$("#divWhathaveideveloped").hide();
+	$("#divWorkexperience").hide();
+}
