@@ -1,0 +1,22 @@
+.formStyle {
+    border: 1px solid #000000;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.formStyle .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+    text-align: left;
+    padding: 10px 20px 2px 20px;
+}
+
+.formStyle td {
+    padding: 0px 10px;
+    vertical-align: top;
+}
+
+.formStyle .year {
+    width: 300px;
+}

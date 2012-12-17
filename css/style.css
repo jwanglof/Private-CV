@@ -1,5 +1,6 @@
 body {
 		background-color: #ffffff;
+        margin: 0px;
 }
 
 #content h1 {
@@ -57,4 +58,38 @@ body {
 #content .refLinks {
 		font-size: 0.7em;
 		vertical-align: super;
+}
+
+.coloumn_container {
+    clear: both;
+    width: 1005px;
+    min-height: 100px;
+    border: 1px solid #000000;
+
+    margin: 20px 40px;
+    padding: 5px;
+}
+
+.coloumn_container .left_coloumn {
+    float: left;
+    width: 300px;
+}
+
+.coloumn_container .right_coloumn {
+    float: right;
+    width: 700px;
+    text-align: right;
+}
+
+.coloumn_container .title {
+    font-weight: bold;
+    font-size: 1.3em;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+.coloumn_container .bottom_anchor {
+    clear: both;
 }

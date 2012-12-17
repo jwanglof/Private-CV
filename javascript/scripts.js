@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    // Resize coloumn_container to right size
+    //$("#")$(window).width();
+
 //	$('.dropdown-toggle').dropdown();
 
 	hideEverything();
@@ -27,6 +30,12 @@ $(document).ready(function() {
 		$("#divWorkexperience").show("fast");
 		return false;
 	});
+
+    $("#linkContactme").click(function() {
+        hideEverything();
+        $("#divContactme").show("fast");
+        return false;
+    });
 });
 
 function hideEverything() {
@@ -34,4 +43,7 @@ function hideEverything() {
 	$("#divWhoami").hide();
 	$("#divWhathaveideveloped").hide();
 	$("#divWorkexperience").hide();
+    $("#divContactme").hide();
+    $("#divContactme").hide();
 }
+
